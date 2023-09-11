@@ -15,10 +15,12 @@ dependencies {
 
     implementation("javax.servlet:jstl:1.2")
     implementation("javax.servlet:javax.servlet-api:4.0.1")
+    implementation("org.passay:passay:1.6.1")
 
     implementation("org.reflections:reflections:0.9.12")
 
     implementation("ch.qos.logback:logback-classic:1.2.3")
+    implementation("org.assertj:assertj-core:3.23.1")
 
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
