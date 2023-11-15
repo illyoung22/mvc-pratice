@@ -56,7 +56,7 @@ public class ReflectionTest {
         logger.debug("clazz: [{}]", clazz);
         logger.debug("clazz: [{}]", clazz2);
         logger.debug("clazz: [{}]", clazz3);
-        //Tdd
+        //Tdd2
         assertThat(clazz == clazz2).isTrue();
         assertThat(clazz2 == clazz3).isTrue();
         assertThat(clazz3 == clazz).isTrue();
