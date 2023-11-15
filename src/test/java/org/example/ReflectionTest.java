@@ -19,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 /**
- * @Controller 애노테이션이 설정되어 있는 모든 클래스를 찾아서 출력
+ * Controller 애노테이션이 설정되어 있는 모든 클래스를 찾아서 출력
  *
  * [ReFlection]
  * - 힙 영역에 로드되어 있는 클래스 타입의 객체를 통해 필드/메소드/생성자를 접근 제어자와 상관 없이 사용할 수 있도록 지원하는 API
